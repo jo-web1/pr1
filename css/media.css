@@ -1,0 +1,152 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+
+    width: 100%;
+}
+.logo1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.logo1 h1{
+    font-size: 1.5rem;
+}
+.logo1 button{
+    font-size: 2.3rem;
+}
+.i{
+    grid-column: 2;
+    grid-row: 1;
+}
+.i button{
+    font-size: 1.3rem;
+
+}
+.form{
+    grid-row: 2;
+    grid-column: span 2;
+    width: 90%;
+    text-align: center;
+    
+}
+.form form{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.form form input{
+    height: 25px;
+    font-size: .7rem;
+    border: 0;
+    
+}
+.form form button{
+    font-size: .7rem;
+    margin-right: 0;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    height: 25px;
+    text-align: center;
+    border: 0;
+}
+nav .logo h1{
+    font-size: 1.5rem;
+
+}
+nav .logo button{
+    font-size: 2rem;
+}
+nav .i2 button{
+    font-size: 1.2rem;
+}
+.section-v {
+    height: 75vh; 
+    top: 120px;
+}
+.text {
+  width: 75%;
+}
+.text h1,.text h2{
+    margin-top: -1px;
+    font-size: 2rem;
+    line-height: 1.2;
+
+}
+.text button{
+    width: 30vw;
+    height: 5vh;
+}
+.text button a{
+    font-size: .7rem;
+}
+.section1{
+    grid-template-columns: 1fr;
+}
+.title1 ,.title2{
+    margin-top: 150px;
+    margin-bottom: 5%;
+    font-size: 1rem;
+}
+.ms p{
+    font-size: 1rem;
+}
+.section2 {
+    margin-top: 150px;
+   
+}
+.med3 img ,.med4 img{
+    height: 15vh;
+}
+.med2{
+    line-height: 1.2;
+
+}
+.med2 button{
+    font-size: .4rem;
+    padding: 4%;
+    margin-top:-5px;
+}
+h4,h3{
+    font-size: .7rem;
+}
+.med1 img ,.med1,.med2{
+    height: 20vh;
+}
+ .section2 h3{
+    margin-top: -10px;
+ }
+.section2 h4{
+    margin-top: -5px;
+}
+
+.section3{
+    grid-template-columns: repeat(2,1fr);
+}
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    
+}
+.footer a {
+  margin: 0;
+  
+}
+.footer-contact p,
+.footer-brand p {
+  margin: 0;
+}
+.footer-bottom {
+  margin-top: 0;
+  
+}
+.footer-container{
+    margin: 0;
+}
+.footer-brand{
+    margin: 0;
+}
+
+
